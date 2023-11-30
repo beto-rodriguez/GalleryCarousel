@@ -2,6 +2,10 @@
 
 Simple and flexible animated carousel for MAUI.
 
+### Install from Nuget
+
+https://www.nuget.org/packages/GalleryCarousel
+
 ### Playground sample
 
 https://github.com/beto-rodriguez/GalleryCarousel/tree/master/samples/BasicSample/Samples/Playground
