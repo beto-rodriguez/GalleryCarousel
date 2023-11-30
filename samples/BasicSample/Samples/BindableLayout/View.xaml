@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="BasicSample.Samples.BindableLayout.View"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:c="clr-namespace:GalleryCarousel;assembly=GalleryCarousel"
+    xmlns:local="clr-namespace:BasicSample.Samples.BindableLayout"
+    x:DataType="local:ViewModel"
+    mc:Ignorable="d">
+
+    <c:GalleryCarousel
+        Background="#eee"
+        Margin="0, 100"
+        WidthRequest="600"
+        HeightRequest="320"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        BindableLayout.ItemsSource="{Binding Items}">
+        <BindableLayout.ItemTemplate>
+            <DataTemplate x:DataType="local:Item">
+                <Border 
+                    Padding="35" 
+                    WidthRequest="300" 
+                    HeightRequest="300" 
+                    StrokeThickness="0" 
+                    Background="#fff">
+                    <Border.Shadow>
+                        <Shadow Brush="Black" Offset="0,0" Radius="5" Opacity="0.2" />
+                    </Border.Shadow>
+                    <VerticalStackLayout>
+                        <Image 
+                            Source="{Binding Image}" 
+                            Margin="0, 0, 0, 20" />
+                        <Label 
+                            Text="{Binding Name}" 
+                            FontSize="20" 
+                            FontAttributes="Bold" 
+                            Margin="0, 0, 0, 10" 
+                            TextColor="#4f46e5" />
+                        <BoxView 
+                            Margin="10" 
+                            HeightRequest="10" 
+                            CornerRadius="10" 
+                            WidthRequest="80" 
+                            Color="#ffd0cb"/>
+                    </VerticalStackLayout>
+                </Border>
+            </DataTemplate>
+        </BindableLayout.ItemTemplate>
+    </c:GalleryCarousel>
+</ContentPage>

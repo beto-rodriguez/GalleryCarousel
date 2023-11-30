@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="BasicSample.Samples.Minimal.View"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:c="clr-namespace:GalleryCarousel;assembly=GalleryCarousel"
+    mc:Ignorable="d"
+    Title="Minimal"
+    Background="#f5f5f5">
+
+    <c:GalleryCarousel 
+        Background="#eee"
+        Margin="0, 100"
+        WidthRequest="600"
+        HeightRequest="320"
+        VerticalOptions="Center"
+        HorizontalOptions="Center">
+
+        <Border Padding="35" WidthRequest="300" HeightRequest="300" StrokeThickness="0" Background="#fff">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Radius="5" Opacity="0.2" />
+            </Border.Shadow>
+            <VerticalStackLayout>
+                <Image Source="img1.png" Margin="0, 0, 0, 20" />
+                <BoxView Margin="10" HeightRequest="15" CornerRadius="10" WidthRequest="180" Color="#4f46e5"/>
+                <BoxView Margin="10" HeightRequest="10" CornerRadius="10" WidthRequest="80" Color="#ffd0cb"/>
+            </VerticalStackLayout>
+        </Border>
+
+        <Border Padding="35" WidthRequest="300" HeightRequest="300" StrokeThickness="0" Background="#fff">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Radius="5" Opacity="0.2" />
+            </Border.Shadow>
+            <VerticalStackLayout>
+                <Image Source="img2.png" Margin="0, 0, 0, 20" />
+                <BoxView Margin="10" HeightRequest="15" CornerRadius="10" WidthRequest="180" Color="#eab308"/>
+                <BoxView Margin="10" HeightRequest="10" CornerRadius="10" WidthRequest="80" Color="#ede9fe"/>
+            </VerticalStackLayout>
+        </Border>
+
+        <Border Padding="35" WidthRequest="300" HeightRequest="300" StrokeThickness="0" Background="#fff">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Radius="5" Opacity="0.2" />
+            </Border.Shadow>
+            <VerticalStackLayout>
+                <Image Source="img3.png" Margin="0, 0, 0, 20" />
+                <BoxView Margin="10" HeightRequest="15" CornerRadius="10" WidthRequest="180" Color="#525252"/>
+                <BoxView Margin="10" HeightRequest="10" CornerRadius="10" WidthRequest="80" Color="#ffedd5"/>
+            </VerticalStackLayout>
+        </Border>
+
+        <Border Padding="35" WidthRequest="300" HeightRequest="300" StrokeThickness="0" Background="#fff">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Radius="5" Opacity="0.2" />
+            </Border.Shadow>
+            <VerticalStackLayout>
+                <Image Source="img4.png" Margin="0, 0, 0, 20" />
+                <BoxView Margin="10" HeightRequest="15" CornerRadius="10" WidthRequest="180" Color="#64748b"/>
+                <BoxView Margin="10" HeightRequest="10" CornerRadius="10" WidthRequest="80" Color="#fee2e2"/>
+            </VerticalStackLayout>
+        </Border>
+
+        <Border Padding="35" WidthRequest="300" HeightRequest="300" StrokeThickness="0" Background="#fff">
+            <Border.Shadow>
+                <Shadow Brush="Black" Offset="0,0" Radius="5" Opacity="0.2" />
+            </Border.Shadow>
+            <VerticalStackLayout>
+                <Image Source="img5.png" Margin="0, 0, 0, 20" />
+                <BoxView Margin="10" HeightRequest="15" CornerRadius="10" WidthRequest="180" Color="#ef4444"/>
+                <BoxView Margin="10" HeightRequest="10" CornerRadius="10" WidthRequest="80" Color="#f4f4f5"/>
+            </VerticalStackLayout>
+        </Border>
+
+    </c:GalleryCarousel>
+    
+</ContentPage>

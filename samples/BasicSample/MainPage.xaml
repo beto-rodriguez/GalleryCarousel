@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:l="clr-namespace:BasicSample"
+    x:Class="BasicSample.MainPage">
+
+    <VerticalStackLayout MaximumWidthRequest="300">
+        <Label Text="Select and example:" Margin="10" />
+
+        <Button Text="Minimal" Clicked="Button_Clicked_1" Margin="10" />
+        <Button Text="Bindable layout" Clicked="Button_Clicked" Margin="10" />
+        <Button Text="Playground" Clicked="Button_Clicked_2" Margin="10" />
+    </VerticalStackLayout>
+
+</ContentPage>
