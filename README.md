@@ -20,4 +20,4 @@ https://github.com/beto-rodriguez/GalleryCarousel/tree/master/samples/BasicSampl
 
 ### Using BindableLayout
 
-[https://github.com/beto-rodriguez/GalleryCarousel/tree/master/samples/BasicSample/Samples/Minimal](https://github.com/beto-rodriguez/GalleryCarousel/tree/master/samples/BasicSample/Samples/BindableLayout)https://github.com/beto-rodriguez/GalleryCarousel/tree/master/samples/BasicSample/Samples/BindableLayout
+https://github.com/beto-rodriguez/GalleryCarousel/tree/master/samples/BasicSample/Samples/BindableLayout
